@@ -11,7 +11,8 @@
     "posttest": "npm run lint && nsp check",
     "dev": "node ./client/build/dev-server.js",
     "start": "node ./client/build/dev-server.js",
-    "build": "node ./client/build/build.js"
+    "build": "node ./client/build/build.js",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "compression": "^1.0.3",
