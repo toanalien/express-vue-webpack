@@ -8,7 +8,10 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "dev": "node ./client/build/dev-server.js",
+    "start": "node ./client/build/dev-server.js",
+    "build": "node ./client/build/build.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
